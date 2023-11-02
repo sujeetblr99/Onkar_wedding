@@ -47,6 +47,47 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+<style>
+	body {
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+
+	.event-section {
+		background-color: #f2f2f2;
+		padding: 20px;
+	}
+
+	.event-card {
+		background-color: #ffffff;
+		border-radius: 8px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+
+	.venue-details {
+		background-color: #e6e6ff;
+		border-radius: 8px;
+		padding: 20px;
+		margin-top: 20px;
+	}
+
+	.event-card h2,
+	.venue-details h2 {
+		color: #333;
+	}
+
+	.bullet-points {
+		margin-top: 10px;
+	}
+
+	.bullet-points ul {
+		list-style-type: disc;
+		margin-left: 20px;
+	}
+</style>
 
 	</head>
 	<body>
@@ -107,71 +148,17 @@
 		</div>
 	</header>
 
-
-
 	<div id="fh5co-event" class="fh5co-bg">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Events</h2>
+					<h2>Venue</h2>
 				</div>
 			</div>
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-10 col-md-offset-1">
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Mehndi</h3>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>14 December 2023</span>
-									</div>
-									<div class="event-col">
-
-										<i class="icon-clock"></i>
-										<span>07:00 PM</span>
-									</div>
-									<p>At <b>Pune residence</b> Followed by Dev-Brahman at 09:00 AM</p>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Engagement</h3>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>16 December 2023</span>
-									</div>
-									<div class="event-col">
-
-										<i class="icon-clock"></i>
-										<span>11:30 AM</span>
-									</div>
-									<p>At <b>Chaitanya Farms, Nashik</b> Followed by High tea at 11:30 AM, Lunch at 01:00 PM, Simanti-pujan at 04:00 PM, Snacks at 05:00 PM, Sangeet at 07:00 PM & Dinner 08:30 PM Onwards.</p>
-								</div>
-							</div>
-							<br><br><br>
-						
-							<div class="col-md-12 col-sm-12 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Wedding</h3>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>17 December 2023</span>
-									</div>
-									<div class="event-col">
-
-										<i class="icon-clock"></i>
-										<span>11:30 AM</span>
-									</div>
-									<p>At <b>Chaitanya Farms, Nashik</b> Followed by Haldi at 08:00 AM, Breakfast at 08:30 AM, Barat at 11:30 AM, Manglashtak at 12:30 PM, Lunch at 12:45 PM Onwards, Vaidik & Saptpadi at 03:00 PM & Snacks at 04:00 PM</p>
-								</div>
-							</div>
-
-
-						</div>
-					</div>
+			<div class="event-section">
+				<div class="event-card" style="background-color: #ffcccc;">
+					<h2 style="text-align: center;">Chaitanya Farms, Nashik</h2>
 				</div>
 			</div>
 		</div>
@@ -204,7 +191,63 @@
 		</div>
 	</div>
 
+	<div id="fh5co-event" class="fh5co-bg">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<h2>Events</h2>
+				</div>
+			</div>
+			<div class="event-section">
+				<div class="event-card" style="background-color: #ffcccc;">
+					<h2 style="text-align: center;">16th December 2023</h2>
+					<div class="bullet-points">
+						<ul>
+							<li>10:30 AM - High Tea</li>
+							<li>11:30 AM - Engagement</li>
+							<li>01.00 PM - Lunch</li>
+							<li>04:00 PM - Simanti-Pujan</li>
+							<li>05:00 PM - Evening Snacks</li>
+							<li>07:30 PM - Sangeet</li>
+							<li>08:30 PM onwards - Dinner</li>
+						</ul>
+					</div>
+				</div>
+			
+				<div class="event-card" style="background-color: #ccffcc;">
+					<h2 style="text-align: center;">17th December 2023</h2>
+					<div class="bullet-points">
+						<ul>
+							<li>08:00 AM - Haldi</li>
+							<li>08:30 AM - Breakfast</li>
+							<li>11.30 AM - Barat</li>
+							<li>12:30 PM - Manglashtak</li>
+							<li>12.45 PM onwards - Lunch</li>
+							<li>03:00 PM - Vaidik & Saptpadi</li>
+							<li>04:00 PM - Evening Snacks</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<div id="fh5co-event" class="fh5co-bg">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<h2 style="text-align: center;">Invited By</h2>
+				</div>
+			</div>
+			<div class="event-section">
+				<div class="event-card" style="background-color: #ffcccc;">
+					<h2 style="text-align: center;">Rohini & Murlidhar Joshi</h2>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div id="fh5co-services" class="fh5co-section-gray">
 		<div class="container">
@@ -216,17 +259,14 @@
 				</div>
 			</div>
 
-
-
 				<div class="container animate-box">
 					<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
 						<a href="#" class="popup-vimeo"><i class="icon-video2"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
-			</div>
-			
 		</div>
+			
 	</div>
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
